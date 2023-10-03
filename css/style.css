@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    margin: 20px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px 15px 90px;
+}
+
+.header > .end-block {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.header > .end-block > .header-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header > .end-block > .header-menu li a {
+    color: #B8BECD;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header > .end-block > .header-menu .active {
+    color: #202336;
+}
+
+
+.header > .end-block > .auth {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header > .end-block > .auth button {
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.header > .end-block > .auth .login {
+    color: #FB8F1D;
+    background: white;
+    border: 1px #FB8F1D solid;
+}
+
+.header > .end-block > .auth .register {
+    color: white;
+    background: #FB8F1D;
+}
+
+.home > .home-main {
+    padding: 0 0 20px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home > .home-main > .info > h1 {
+    padding-top: 20px;
+    color: #202336;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 125% */
+}
+
+.home > .home-main > .info > h4 {
+    color: #202336;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.home > .home-main > .info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.select {
+    height: 50px;
+    width: 200px;
+    background: white;
+}
+
+.select > option {
+    padding: 20px 20px;
+}
+
+.home > .home-main > .info > .selects-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home > .home-main > .info > .selects-block > .selects {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-explore {
+    margin-top: 30px;
+    background: #FB8F1D;
+    color: white;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+}
+
+.mini-blog {
+    margin-top: 100px;
+    display: flex;
+    gap: 140px;
+    padding: 20px;
+}
+
+.mini-blog > .mini-blog-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 500px;
+}
+
+.mini-blog > .mini-blog-info > h3 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 138.889% */
+}
+
+.mini-blog > .mini-blog-info > p {
+    color: #7D7987;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 176.471% */
+}
+
+.mini-blog > .mini-blog-info > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+    color: white;
+    background: #FB8F1D;
+    border-radius: 10px;
+}
+
+.featured-destinations {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 90px 20px 120px;
+    gap: 40px;
+    margin-top: 200px;
+}
+
+.featured-destinations > .featured-destinations-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-destinations > .featured-destinations-title > h2 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 138.889% */
+}
+
+.featured-destinations > .featured-destinations-title > a {
+    color: #FB8F1D;
+}
+
+.featured-destinations > .featured-destinations-images {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.featured-destinations > .featured-destinations-images > .featured-destinations-image > img {
+    border-radius: 10px;
+    width: 280px;
+    height: 400px;
+}
+
+.featured-destinations > .featured-destinations-images > .featured-destinations-image > .img-desc {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    background: white;
+    border-radius: 10px;
+    bottom: 0;
+    padding: 5px 4px 0;
+}
+
+.featured-destinations > .featured-destinations-images > .featured-destinations-image > .img-desc > h4 {
+    color: #042521;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; /* 147.059% */
+}
+
+.featured-destinations > .featured-destinations-images > .featured-destinations-image > .img-desc > p {
+    color: #80918E;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.mini-blog-2 {
+    display: flex;
+    gap: 260px;
+    margin: 200px auto;
+    padding: 20px;
+}
+
+.mini-blog-2 > .mini-blog-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 400px;
+}
+
+.mini-blog-2 > .mini-blog-info > h3 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 138.889% */
+}
+
+.mini-blog-2 > .mini-blog-info > p {
+    color: #7D7987;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 176.471% */
+}
+
+.mini-blog-2 > .mini-blog-info > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+    color: white;
+    background: #FB8F1D;
+    border-radius: 10px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 100px auto;
+}
+
+.reviews > h2 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 138.889% */
+}
+
+.reviews > .wrapper-block-reviews > .review-info > p {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+}
+
+.reviews > .wrapper-block-reviews {
+    display: flex;
+    gap: 300px;
+}
+
+.reviews > .wrapper-block-reviews > .review-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 400px;
+}
+
+.reviews > .wrapper-block-reviews > .review-info > .stars {
+    display: flex;
+    gap: 20px;
+}
+
+.reviews > .wrapper-block-reviews > .review-info > .review-user-data > b {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 218.182% */
+}
+
+.reviews > .wrapper-block-reviews > .review-info > .review-user-data > h5 {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 266.667% */
+}
+
+.reviews > .wrapper-block-reviews > .review-user-img {
+    position: relative;
+}
+
+.reviews > .wrapper-block-reviews > .review-user-img > img {
+    border-radius: 10px;
+    height: 550px;
+}
+
+.reviews > .wrapper-block-reviews > .review-user-img > .img-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    width: 170px;
+    height: 70px;
+    background: white;
+    border-radius: 10px;
+    bottom: -5px;
+    right: -8px;
+}
+
+
+.stories {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 150px;
+}
+
+.stories > .stories-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories > .stories-title > h2 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 138.889% */
+}
+
+.stories > .stories-title > a {
+    color: #FB8F1D;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 352.941% */
+}
+
+.stories > .storis {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories > .storis > .block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 280px;
+    height: 530px;
+}
+
+.stories > .storis > .block > img {
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+}
+
+.stories > .storis > .block > b {
+    color: #000;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 157.895% */
+}
+
+.stories > .storis > .block > p {
+    color: #7D7987;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+}
+
+.stories > .storis > .block > a {
+    color: #FB8F1D;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 186.667% */
+}
+
+.footer {
+    background: #F9F9FB;
+    padding: 80px 190px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer > .footer-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > .footer-wrap > .site-info {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    width: 350px;
+}
+
+.footer > .footer-wrap > .site-info > p {
+    color: #848484;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 164.706% */
+}
+
+.footer > .footer-wrap > .site-info > .logo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer > .footer-wrap > .site-info > .logo > p {
+    color: #848484;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+}
+
+.footer > .footer-wrap > .footer-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer > .footer-wrap > .footer-title > .footer-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer > .footer-wrap > .footer-title > b {
+    color: #000;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 315.789% */
+}
+
+.footer > .footer-wrap > .footer-title > .footer-info > h4 {
+    color: #848484;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px; /* 211.111% */
+}
+
+.footer > .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
